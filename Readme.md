@@ -1,3 +1,5 @@
+# ASPxScheduler - How to create a custom adaptive Appointment Form using templates (User Control)
+
 The ASPxScheduler controls supports two mechanisms to create a custom Appointment Form:
 
 1. Using a custom View Model API:
@@ -9,3 +11,10 @@ In the case of using the 2nd approach, you need to create a built-in Popup Windo
 
 
 This example demonstrates how to use the ASPxFormLayhout control in [responsive mode](https://demos.devexpress.com/ASPxNavigationAndLayoutDemos/FormLayout/ResponsiveLayout.aspx?device=phone&rotate=0) as the main form's container to make a custom Appointment Form adaptive.
+
+<!-- default file list -->
+*Files to look at*:
+
+* [AppointmentForm.ascx](./CS/WebApplication1/DevExpress/ASPxSchedulerForms/AppointmentForm.ascx)
+* [AppointmentForm.ascx.cs](./CS/WebApplication1/DevExpress/ASPxSchedulerForms/AppointmentForm.ascx.cs)
+* [CustomAppointmentSaveCallbackCommand.cs](./CS/WebApplication1/CustomCommands/CustomAppointmentSaveCallbackCommand.cs)
