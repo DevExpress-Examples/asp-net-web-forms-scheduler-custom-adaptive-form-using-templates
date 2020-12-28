@@ -15,6 +15,12 @@ This example demonstrates how to use the ASPxFormLayhout control in [responsive 
 <!-- default file list -->
 *Files to look at*:
 
+CS
 * [AppointmentForm.ascx](./CS/WebApplication1/DevExpress/ASPxSchedulerForms/AppointmentForm.ascx)
 * [AppointmentForm.ascx.cs](./CS/WebApplication1/DevExpress/ASPxSchedulerForms/AppointmentForm.ascx.cs)
 * [CustomAppointmentSaveCallbackCommand.cs](./CS/WebApplication1/CustomCommands/CustomAppointmentSaveCallbackCommand.cs)
+
+VB
+* [AppointmentForm.ascx](./VB/WebApplication1/DevExpress/ASPxSchedulerForms/AppointmentForm.ascx)
+* [AppointmentForm.ascx.vb](./VB/WebApplication1/DevExpress/ASPxSchedulerForms/AppointmentForm.ascx.vb)
+* [CustomAppointmentSaveCallbackCommand.vb](./VB/WebApplication1/CustomCommands/CustomAppointmentSaveCallbackCommand.vb)
