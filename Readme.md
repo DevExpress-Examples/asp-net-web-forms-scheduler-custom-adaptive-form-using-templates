@@ -1,4 +1,7 @@
 # ASPxScheduler - How to create a custom adaptive Appointment Form using templates (User Control)
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/324958574/)**
+<!-- run online end -->
 
 The ASPxScheduler controls supports two mechanisms to create a custom Appointment Form:
 
