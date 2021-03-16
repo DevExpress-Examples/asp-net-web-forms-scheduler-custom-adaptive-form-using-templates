@@ -21,7 +21,15 @@ Namespace WebApplication1.CustomCommands
 			MyBase.AssignControllerValues()
 		End Sub
 
-		Protected Overrides Sub AssignControllerRecurrenceValues(ByVal clientStart As DateTime)
+        Protected Overrides Function ShouldShowRecurrence() As Boolean
+            Dim chkRecurrence As ASPxCheckBox = TryCast(FindControlByID("chkRecurrence"), ASPxCheckBox)
+            If chkRecurrence IsNot Nothing Then
+                Return chkRecurrence.Checked
+            End If
+            Return MyBase.ShouldShowRecurrence()
+        End Function
+
+        Protected Overrides Sub AssignControllerRecurrenceValues(ByVal clientStart As DateTime)
 			'base.AssignControllerRecurrenceValues(clientStart);
 			If ShouldShowRecurrence() Then
 

@@ -16,7 +16,13 @@ namespace WebApplication1.CustomCommands {
         protected override void AssignControllerValues() {
             base.AssignControllerValues();
         }
-
+        protected override bool ShouldShowRecurrence() {
+            ASPxCheckBox chkRecurrence = FindControlByID("chkRecurrence") as ASPxCheckBox;
+            if(chkRecurrence != null) {
+                return chkRecurrence.Checked;
+            }
+            return base.ShouldShowRecurrence();
+        }
         protected override void AssignControllerRecurrenceValues(DateTime clientStart) {
             //base.AssignControllerRecurrenceValues(clientStart);
             if(ShouldShowRecurrence()) {
