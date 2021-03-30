@@ -457,7 +457,7 @@
 		},
 		Validate: function () {
 			this.isValid = ASPxClientEdit.ValidateEditorsInContainer(null);
-			this.controls.btnOk.SetEnabled(this.isValid && this.isRecurrenceValid);
+			this.controls.btnOk.SetEnabled(this.isValid);
 		}
 	});
 </script>
