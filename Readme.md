@@ -5,9 +5,6 @@
 <!-- default badges end -->
 
 # Scheduler for ASP.NET Web Forms - How to create a custom adaptive appointment form using templates (User Control)
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/324958574/)**
-<!-- run online end -->
 
 This example demonstrates how to use the [ASPxFormLayout](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxFormLayout) component in responsive mode as the main form container to make a custom appointment form adaptive.
 
