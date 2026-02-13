@@ -38,7 +38,7 @@ In this example, the custom appointment form contains [ASPxFormLayout](https://d
 
 * [Form Layout - Responsive Layout](https://demos.devexpress.com/ASPxNavigationAndLayoutDemos/FormLayout/ResponsiveLayout.aspx)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-scheduler-custom-adaptive-form-using-templates&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-scheduler-custom-adaptive-form-using-templates&~~~was_helpful=no)
 
